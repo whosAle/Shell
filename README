@@ -1,0 +1,41 @@
+Alejandro Belgrave
+
+A simple shell that functions similarly to bash
+Runs on unix / linux command line
+
+**********************
+
+1 - inside a loop in main() present a prompt and reads the line of input
+
+2 - runs a single line command by forking and exec'ing
+
+3 - parses a command line with whitespace into a vector
+    -- supports no space for & character
+
+4 - Take a vectorized multi-token command line and run the program specified and waits for it to complete.
+
+5 - The shell is able to trap SIGINT and have it terminate the currently running child process of the shell
+
+6 - Able to parse the & character and have the program in the command line that it is in run in the background
+
+
+7 - Supports < and > redirection characters it opens the file requested for reading and writing as needed.
+
+
+8- Makefile and README created.
+
+
+
+*********************
+
+
+FOR Piping: We believe that the code that we have written should work or that the structure and impletmentation is logical and present. We have pinpointed the problem to occur around the first dup2 on line 105, however, we do not exactly know why it is not working.
+
+
+
+Regarding single and multi-piping commands - Has the structure and logic to support this. But does not work.
+9 - Has the structure and logic to support this. Does not work.
+
+
+No warnings
+
