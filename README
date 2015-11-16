@@ -28,14 +28,7 @@ Runs on unix / linux command line
 
 *********************
 
-
-FOR Piping: We believe that the code that we have written should work or that the structure and impletmentation is logical and present. We have pinpointed the problem to occur around the first dup2 on line 105, however, we do not exactly know why it is not working.
-
-
-
-Regarding single and multi-piping commands - Has the structure and logic to support this. But does not work.
-9 - Has the structure and logic to support this. Does not work.
-
+Regarding single and multi-piping commands - Has the structure and logic to support this. But is currently in debugging stages.
 
 No warnings
 
